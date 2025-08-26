@@ -2,3 +2,12 @@ bazel_dep(name = "gazelle", version = "0.42.0")
 bazel_dep(name = "gazelle_cc", version = "0.1.0") # This extension, use the latest version
 
 bazel_dep(name = "rules_cc", version = "0.1.1")
+bazel_dep(name = "rules_cuda", version = "0.2.5")
+
+archive_override(
+    module_name = "rules_cuda",
+    integrity = "sha256-8TaHimENDX5KjtOYRL4Llp9MYI2ER3JEgD65vOuPnpo=",
+    url = "https://github.com/bazel-contrib/rules_cuda/archive/a862f9b1cb7b6cf15c775fd31e4a1cf56f148a82.tar.gz",
+    strip_prefix = "rules_cuda-a862f9b1cb7b6cf15c775fd31e4a1cf56f148a82",
+)
+
