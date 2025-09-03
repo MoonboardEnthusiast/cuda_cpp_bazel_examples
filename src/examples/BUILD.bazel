@@ -7,6 +7,14 @@ cuda_library(
     srcs = ["kernel.cu"],
     hdrs = ["kernel.h"],
 )
+cuda_library(
+    name = "vector_addition",
+    srcs = ["vector_addition.cu"],
+)
+cc_binary(
+  name = "vector_addition_bin",
+  deps = [":vector_addition"]
+)
 
 cc_binary(
     name = "main",

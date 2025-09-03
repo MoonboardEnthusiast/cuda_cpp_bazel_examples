@@ -23,4 +23,4 @@ build --copt="-L$CUDA_CUDART_STATUS/lib"
 build --subcommands
 build --verbose_failures
 build --execution_log_json_file=exec_log.json
-common --override_module=rules_cuda=./rules_cuda
+#common --override_module=rules_cuda=./rules_cuda

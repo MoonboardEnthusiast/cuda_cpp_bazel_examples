@@ -120,7 +120,7 @@ int main() {
     
     printf("\nResult array C = A + B:\n");
     printf("C: ");
-    for (int i = 0; i < arraySize; i++) {
+ https://github.com/MoonboardEnthusiast/cuda_cpp_bazel_examples.git   for (int i = 0; i < arraySize; i++) {
         printf("%d ", h_c[i]);
     }
     printf("\n\n");
