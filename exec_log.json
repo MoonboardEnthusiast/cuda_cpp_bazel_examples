@@ -17335,8 +17335,8 @@
   }, {
     "path": "src/examples/vector_addition.cu",
     "digest": {
-      "hash": "930c3f501090f893efcf5f66c954ccccaa3442c4d9fcb2c6c28d950da34cf69f",
-      "sizeBytes": "757",
+      "hash": "a3da96b785efb84f309abba6efa7aaa031bb874d6863e425bcbcec8d94f6e4c9",
+      "sizeBytes": "2093",
       "hashFunctionName": "SHA-256"
     },
     "isTool": false,
@@ -17350,8 +17350,8 @@
   "actualOutputs": [{
     "path": "bazel-out/k8-fastbuild/bin/src/examples/_objs/vector_addition/vector_addition.pic.o",
     "digest": {
-      "hash": "b1355dd68e7e9d987cc3167c1a2187061494fb64b64c47f1984ee25db91b86fc",
-      "sizeBytes": "47056",
+      "hash": "1c754c191dc148f39c8364e52e6e05a34a28203eda0c4e637b3f66186d26b5ed",
+      "sizeBytes": "72280",
       "hashFunctionName": "SHA-256"
     },
     "isTool": false,
@@ -17364,8 +17364,8 @@
   "remoteCacheable": true,
   "targetLabel": "//src/examples:vector_addition",
   "metrics": {
-    "totalTime": "1.248s",
-    "executionWallTime": "1.248s",
+    "totalTime": "1.117s",
+    "executionWallTime": "1.117s",
     "inputBytes": "0",
     "inputFiles": "0",
     "memoryEstimateBytes": "0",
@@ -17374,7 +17374,7 @@
     "outputBytesLimit": "0",
     "outputFilesLimit": "0",
     "memoryBytesLimit": "0",
-    "startTime": "2025-09-03T16:15:15.965Z"
+    "startTime": "2025-09-03T17:15:07.720Z"
   }
 }{
   "commandArgs": ["/run/current-system/sw/bin/gcc", "@bazel-out/k8-fastbuild/bin/src/examples/vector_addition_bin-0.params"],
@@ -17424,8 +17424,8 @@
   }, {
     "path": "bazel-out/k8-fastbuild/bin/src/examples/_objs/vector_addition/vector_addition.pic.o",
     "digest": {
-      "hash": "b1355dd68e7e9d987cc3167c1a2187061494fb64b64c47f1984ee25db91b86fc",
-      "sizeBytes": "47056",
+      "hash": "1c754c191dc148f39c8364e52e6e05a34a28203eda0c4e637b3f66186d26b5ed",
+      "sizeBytes": "72280",
       "hashFunctionName": "SHA-256"
     },
     "isTool": false,
@@ -17520,8 +17520,8 @@
   "actualOutputs": [{
     "path": "bazel-out/k8-fastbuild/bin/src/examples/vector_addition_bin",
     "digest": {
-      "hash": "511629d2c84fd217d785c724bfa463d461e55d5cd7cfa70e67aa78cdc26f058e",
-      "sizeBytes": "26208",
+      "hash": "620a612af9fa9f3fe335220d9576be880922034d0bdf30f0b1f4737357f12ab9",
+      "sizeBytes": "37600",
       "hashFunctionName": "SHA-256"
     },
     "isTool": false,
@@ -17534,8 +17534,8 @@
   "remoteCacheable": true,
   "targetLabel": "//src/examples:vector_addition_bin",
   "metrics": {
-    "totalTime": "0.059s",
-    "executionWallTime": "0.059s",
+    "totalTime": "0.037s",
+    "executionWallTime": "0.037s",
     "inputBytes": "0",
     "inputFiles": "0",
     "memoryEstimateBytes": "0",
@@ -17544,6 +17544,6 @@
     "outputBytesLimit": "0",
     "outputFilesLimit": "0",
     "memoryBytesLimit": "0",
-    "startTime": "2025-09-03T16:15:17.232Z"
+    "startTime": "2025-09-03T17:15:08.846Z"
   }
 }
