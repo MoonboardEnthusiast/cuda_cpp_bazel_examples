@@ -1,1 +1,26 @@
-common --action_env=BAZEL_USE_CPP_ONLY_TOOLCHAIN=1
+common --announce_rc
+
+# Convenient flag shortcuts.
+build --flag_alias=enable_cuda=@rules_cuda//cuda:enable
+build --flag_alias=cuda_archs=@rules_cuda//cuda:archs
+build --flag_alias=cuda_compiler=@rules_cuda//cuda:compiler
+build --flag_alias=cuda_copts=@rules_cuda//cuda:copts
+build --flag_alias=cuda_runtime=@rules_cuda//cuda:runtime
+
+build --enable_cuda=True
+
+# Use --config=clang to build with clang instead of gcc and nvcc.
+# build --repo_env=CC=clang
+# build --@rules_cuda//cuda:compiler=clang
+
+# https://github.com/bazel-contrib/rules_cuda/issues/1
+# build --ui_event_filters=-INFO
+# Let clang use libstdc++ headers
+# build --copt="-stdlib=libstdc++"
+# build --linkopt="-stdlib=libstdc++"
+build --copt="-I$CUDA_PATH/include/"
+build --copt="-L$CUDA_CUDART_STATUS/lib"
+build --subcommands
+build --verbose_failures
+build --execution_log_json_file=exec_log.json
+common --override_module=rules_cuda=./rules_cuda

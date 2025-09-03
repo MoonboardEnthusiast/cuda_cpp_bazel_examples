@@ -11,3 +11,9 @@ archive_override(
     strip_prefix = "rules_cuda-a862f9b1cb7b6cf15c775fd31e4a1cf56f148a82",
 )
 
+cuda = use_extension("@rules_cuda//cuda:extensions.bzl", "toolchain")
+cuda.toolkit(
+    name = "cuda",
+    #toolkit_path = "$CUDA_PATH",
+)
+use_repo(cuda, "cuda")

@@ -1,6 +1,28 @@
 load("@rules_cc//cc:defs.bzl", "cc_binary")
+load("@rules_cuda//cuda:defs.bzl", "cuda_library")
+package(default_visibility = ["//visibility:public"])
 
+cuda_library(
+    name = "kernel",
+    srcs = ["kernel.cu"],
+    hdrs = ["kernel.h"],
+)
+
+cc_binary(
+    name = "main",
+    srcs = ["main.cpp"],
+    deps = [":kernel"],
+)
+cuda_library(
+    name = "hello_cuda_lib",
+    srcs = ["cuda_hello_world.cu"],
+)
 cc_binary(
     name = "basic-algorithms",
     srcs = ["basic-algorithms.cpp"],
+)
+
+cc_binary(
+    name = "cuda_hello_world",
+    deps = [":hello_cuda_lib"],
 )

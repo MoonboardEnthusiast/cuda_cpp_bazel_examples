@@ -1,0 +1,171 @@
+{
+  "commandArgs": ["/run/current-system/sw/bin/gcc", "@bazel-out/k8-fastbuild/bin/src/examples/cuda_hello_world-0.params"],
+  "environmentVariables": [{
+    "name": "LD_LIBRARY_PATH",
+    "value": "/usr/lib/wsl/lib:/nix/store/3y4mvymhwmnfi5d0vwyzcw7f7sqnqnkd-cuda-merged-12.8/lib:/nix/store/238p7b9vnj2x41c2lw528a6p5pj1fbx3-cudnn-9.8.0.87/lib:/nix/store/swx3386187w0m1gdj4rig0hdpymwn4sm-cuda_cudart-12.8.90/lib"
+  }, {
+    "name": "PATH",
+    "value": "/home/nixos/.cache/bazelisk/downloads/sha256/17247e8a84245f59d3bc633d0cfe0a840992a7760a11af1a30012d03da31604c/bin:/home/nixos/.local/share/nvim/mason/bin:/run/wrappers/bin:/nix/store/3y4mvymhwmnfi5d0vwyzcw7f7sqnqnkd-cuda-merged-12.8/bin:/usr/lib/wsl/lib:/nix/store/swx3386187w0m1gdj4rig0hdpymwn4sm-cuda_cudart-12.8.90/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/home/nixos/.nix-profile/bin:/nix/profile/bin:/home/nixos/.local/state/nix/profile/bin:/etc/profiles/per-user/nixos/bin:/nix/var/nix/profiles/default/bin:/run/current-system/sw/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Sebastian Riedl/AppData/Local/Microsoft/WindowsApps"
+  }, {
+    "name": "PWD",
+    "value": "/proc/self/cwd"
+  }, {
+    "name": "ZERO_AR_DATE",
+    "value": "1"
+  }],
+  "platform": {
+    "properties": []
+  },
+  "inputs": [{
+    "path": "bazel-out/k8-fastbuild/bin/_solib_k8/_U_A_Arules_Ucuda++toolchain+cuda_S_S_Ccudart_Uso___Ucuda_Slib64/libcudart.so",
+    "digest": {
+      "hash": "711b0a6f1e3e3d93756fa2c1e0991eb8640bf5625f9684577941d9239c12a3b3",
+      "sizeBytes": "762584",
+      "hashFunctionName": "SHA-256"
+    },
+    "isTool": false,
+    "symlinkTargetPath": ""
+  }, {
+    "path": "bazel-out/k8-fastbuild/bin/_solib_k8/_U_A_Arules_Ucuda++toolchain+cuda_S_S_Ccudart_Uso___Ucuda_Slib64/libcudart.so.12",
+    "digest": {
+      "hash": "711b0a6f1e3e3d93756fa2c1e0991eb8640bf5625f9684577941d9239c12a3b3",
+      "sizeBytes": "762584",
+      "hashFunctionName": "SHA-256"
+    },
+    "isTool": false,
+    "symlinkTargetPath": ""
+  }, {
+    "path": "bazel-out/k8-fastbuild/bin/_solib_k8/_U_A_Arules_Ucuda++toolchain+cuda_S_S_Ccudart_Uso___Ucuda_Slib64/libcudart.so.12.8.90",
+    "digest": {
+      "hash": "711b0a6f1e3e3d93756fa2c1e0991eb8640bf5625f9684577941d9239c12a3b3",
+      "sizeBytes": "762584",
+      "hashFunctionName": "SHA-256"
+    },
+    "isTool": false,
+    "symlinkTargetPath": ""
+  }, {
+    "path": "bazel-out/k8-fastbuild/bin/src/examples/_objs/hello_cuda_lib/cuda_hello_world.pic.o",
+    "digest": {
+      "hash": "38ccdc7af5b7dbe330adccb11433bcb4dd627c2902e9f1f42f3d9e3424f848ac",
+      "sizeBytes": "28760",
+      "hashFunctionName": "SHA-256"
+    },
+    "isTool": false,
+    "symlinkTargetPath": ""
+  }, {
+    "path": "bazel-out/k8-fastbuild/bin/src/examples/cuda_hello_world-0.params",
+    "digest": {
+      "hash": "5af50369d3ce26f86f35f778f5fbdfaf05e2a36415d3456b396ed0e0b3dad675",
+      "sizeBytes": "932",
+      "hashFunctionName": "SHA-256"
+    },
+    "isTool": false,
+    "symlinkTargetPath": ""
+  }, {
+    "path": "external/rules_cc++cc_configure_extension+local_config_cc/builtin_include_directory_paths",
+    "digest": {
+      "hash": "b2dac8d18cd087a4fbc987f4055c39c45761a6933224c954178d14c803844889",
+      "sizeBytes": "1048",
+      "hashFunctionName": "SHA-256"
+    },
+    "isTool": false,
+    "symlinkTargetPath": ""
+  }, {
+    "path": "external/rules_cc++cc_configure_extension+local_config_cc/cc_wrapper.sh",
+    "digest": {
+      "hash": "f5f841e19c96a4cbea034a2470ad059c478d26ab047e21c5788b79d1e29e6022",
+      "sizeBytes": "1335",
+      "hashFunctionName": "SHA-256"
+    },
+    "isTool": false,
+    "symlinkTargetPath": ""
+  }, {
+    "path": "external/rules_cc++cc_configure_extension+local_config_cc/deps_scanner_wrapper.sh",
+    "digest": {
+      "hash": "a742f118e617f3e118f5655fb2ef6347ec0396682a3f364d961247171bbd4113",
+      "sizeBytes": "248",
+      "hashFunctionName": "SHA-256"
+    },
+    "isTool": false,
+    "symlinkTargetPath": ""
+  }, {
+    "path": "external/rules_cc++cc_configure_extension+local_config_cc/validate_static_library.sh",
+    "digest": {
+      "hash": "5595cbf02e0ee4bb5cf5daea8d21e01e041a0283cd847dcce02c4e1b9143c321",
+      "sizeBytes": "1913",
+      "hashFunctionName": "SHA-256"
+    },
+    "isTool": false,
+    "symlinkTargetPath": ""
+  }, {
+    "path": "external/rules_cc+/cc/private/toolchain/build_interface_so",
+    "digest": {
+      "hash": "a947181cd43e29dac3502c1244a76733f30fcf691f9efe2a82a9f8635bb48baf",
+      "sizeBytes": "109",
+      "hashFunctionName": "SHA-256"
+    },
+    "isTool": false,
+    "symlinkTargetPath": ""
+  }, {
+    "path": "external/rules_cc+/cc/private/toolchain/link_dynamic_library.sh",
+    "digest": {
+      "hash": "aa41d7f3d9710edf6690a24c86e23fb94d85735a6aa2326fd662d76024a62dc2",
+      "sizeBytes": "4117",
+      "hashFunctionName": "SHA-256"
+    },
+    "isTool": false,
+    "symlinkTargetPath": ""
+  }, {
+    "path": "external/rules_cuda++toolchain+cuda/cuda/lib64/libcudadevrt.a",
+    "digest": {
+      "hash": "7eb2359364ec83fda0c1a6e11d2b696755c38500eafdf6034ca2d91235255cd2",
+      "sizeBytes": "2391042",
+      "hashFunctionName": "SHA-256"
+    },
+    "isTool": false,
+    "symlinkTargetPath": ""
+  }, {
+    "path": "external/rules_cuda++toolchain+cuda/cuda/lib64/libculibos.a",
+    "digest": {
+      "hash": "7c07b78ca0f64ede416729aa65e452fc0506264a2a34ca6ae2142c1853a968f8",
+      "sizeBytes": "29866",
+      "hashFunctionName": "SHA-256"
+    },
+    "isTool": false,
+    "symlinkTargetPath": ""
+  }],
+  "listedOutputs": ["bazel-out/k8-fastbuild/bin/src/examples/cuda_hello_world"],
+  "remotable": true,
+  "cacheable": true,
+  "timeoutMillis": "0",
+  "mnemonic": "CppLink",
+  "actualOutputs": [{
+    "path": "bazel-out/k8-fastbuild/bin/src/examples/cuda_hello_world",
+    "digest": {
+      "hash": "3bac09716f1344745663808e73d16a697ba9cb073d4971de72b39b29634f32f0",
+      "sizeBytes": "31184",
+      "hashFunctionName": "SHA-256"
+    },
+    "isTool": false,
+    "symlinkTargetPath": ""
+  }],
+  "runner": "processwrapper-sandbox",
+  "cacheHit": false,
+  "status": "",
+  "exitCode": 0,
+  "remoteCacheable": true,
+  "targetLabel": "//src/examples:cuda_hello_world",
+  "metrics": {
+    "totalTime": "0.064s",
+    "executionWallTime": "0.064s",
+    "inputBytes": "0",
+    "inputFiles": "0",
+    "memoryEstimateBytes": "0",
+    "inputBytesLimit": "0",
+    "inputFilesLimit": "0",
+    "outputBytesLimit": "0",
+    "outputFilesLimit": "0",
+    "memoryBytesLimit": "0",
+    "startTime": "2025-09-01T17:51:59.519Z"
+  }
+}

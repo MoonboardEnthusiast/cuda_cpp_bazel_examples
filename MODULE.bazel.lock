@@ -156,6 +156,48 @@
   },
   "selectedYankedVersions": {},
   "moduleExtensions": {
+    "@@rules_cuda+//cuda:extensions.bzl%toolchain": {
+      "general": {
+        "bzlTransitiveDigest": "yVs8PNOPorST/shzgQ89c/UPi32PKGIiWRT3aTnViHA=",
+        "usagesDigest": "P+nckquY24YqrCY1oAw24o++M5YvPfbFM3T9+uF/4gw=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "cuda": {
+            "repoRuleId": "@@rules_cuda+//cuda/private:repositories.bzl%cuda_toolkit",
+            "attributes": {
+              "components_mapping": {},
+              "nvcc_version": "",
+              "toolkit_path": "",
+              "version": ""
+            }
+          }
+        },
+        "recordedRepoMappingEntries": [
+          [
+            "bazel_tools",
+            "rules_cc",
+            "rules_cc+"
+          ],
+          [
+            "rules_cc+",
+            "bazel_tools",
+            "bazel_tools"
+          ],
+          [
+            "rules_cc+",
+            "rules_cc",
+            "rules_cc+"
+          ],
+          [
+            "rules_cuda+",
+            "bazel_tools",
+            "bazel_tools"
+          ]
+        ]
+      }
+    },
     "@@rules_kotlin+//src/main/starlark/core/repositories:bzlmod_setup.bzl%rules_kotlin_extensions": {
       "general": {
         "bzlTransitiveDigest": "hUTp2w+RUVdL7ma5esCXZJAFnX7vLbVfLd7FwnQI6bU=",
